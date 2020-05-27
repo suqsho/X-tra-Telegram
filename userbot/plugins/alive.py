@@ -17,6 +17,6 @@ async def amireallyalive(alive):
     await alive.client.send_message(
             alive.chat_id,
             f"Python: 3.7.3\n`Database Status: Databases functioning normally!\n\nAlways with you, my master!\n`My owner`: {DEFAULTUSER}`",
-            file="https://i.imgur.com/pU8BE9B.png"
+            file="https://images.app.goo.gl/LGcVFdtmjERqAvns8"
         )
     await alive.delete()
