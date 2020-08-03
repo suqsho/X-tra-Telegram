@@ -1,11 +1,9 @@
-# Adapted from OpenUserBot for Uniborg, X-tra-Telegram
-
 """Download & Upload Images on Telegram\n
 Syntax: `.img <Name>` or `.img (replied message)`
-\n Upgraded and Google Image Error Fixed by @NeoMatrix90 aka @kirito6969
+\n Upgraded and Google Image Error Fixed
 """
 
-from userbot.googol_images import googleimagesdownload
+from userbot.google_imgs import googleimagesdownload
 import os
 import shutil
 from re import findall
